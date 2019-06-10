@@ -35,9 +35,6 @@ public class Main {
                 System.out.println("\nTry to guess the number between 1 and 100.");
                 System.out.println("\nThe goal is to use as few guesses as possible. Train your brain!");
 
-                // Files.lines(new File("c:/myfile.txt").toPath()).forEach(System.out::println);
-
-
                 do {
                     System.out.println("\nEnter your guess: ");
                     playersguess = input.nextInt();
